@@ -1,0 +1,37 @@
+//-------------------- VARIABLES --------------------//
+@import 'variables.scss';
+/*-------------------- GENERAL --------------------*/
+body {
+    background-color: $color-white !important;
+}
+
+@font-face {
+    font-family: 'Dream Avenue';
+    src: url(/fonts/dream-avenue.ttf);
+}
+/*-------------------- HEADER --------------------*/
+@import 'header';
+/*-------------------- CAROUSEL --------------------*/
+@import 'carousel';
+/*-------------------- MAIN CONTENT --------------------*/
+@import 'main-content';
+/*-------------------- CATEGORY --------------------*/
+@import 'category';
+/*-------------------- STORE --------------------*/
+@import 'store';
+/*-------------------- ABOUT --------------------*/
+@import 'about';
+/*-------------------- CONTACT --------------------*/
+@import 'contact';
+/*-------------------- FOOTER --------------------*/
+@import 'footer';
+/*-------------------- MIX --------------------*/
+@import 'mix';
+/*-------------------- MEDIA QUERIES --------------------*/
+@media (min-width: 992px) {
+    .contact-image img {
+        height: 60vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}

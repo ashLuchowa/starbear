@@ -1,0 +1,34 @@
+footer {
+    background-color: $color-secondary;
+    .list-group {
+        li {
+            background-color: $color-secondary;
+        }
+    }
+}
+
+.social-icons {
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+
+        i {
+            display: inline;
+            margin: 0px 10px;
+        }
+    }
+}
+
+#main-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    #email {
+        height: 50px;
+    }
+    input {
+        background-color: $color-secondary;
+        border-color: $color-primary-dark;
+    }
+}

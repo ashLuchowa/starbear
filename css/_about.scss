@@ -1,0 +1,17 @@
+.about-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.about-img {
+    img {
+        height: auto;
+    }
+}
+
+#main-about-content {
+    margin-top: 100px;
+}

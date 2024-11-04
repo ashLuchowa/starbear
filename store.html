@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbear Baking Company</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="custom-header">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm fixed-top shadow-sm" id="main-nav">
+            <div class="container d-flex flex-row">
+                <a href="index.html" class="navbar-brand logo-style">Starbear</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav btn-group">
+                        <!-- Store item -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside" id="product-dropdown">Store</a>
+                                <ul class="dropdown-menu nav-item shadow-sm border-0" aria-labelledby="product-dropdown">
+                                    <li class="dropend"><a href="store.html" class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown">Plants</a>
+                                        <!-- plant sub item -->
+                                        <ul class="dropdown-menu shadow-sm border-0">
+                                            <li><a href="store.html" class="dropdown-item">New York Style</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Vegan</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Sernik</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Fiadone</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="store.html" class="dropdown-item">Donuts</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Cupcakes</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Wedding Cakes</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Savoury</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Gluten Free</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Bake on Demand</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Savoury</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Healthy</a></li>
+                                </ul>
+                            </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div> <!-- collapse navbar-collapse -->
+            </div> <!-- container-fluid -->
+        </nav>
+
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- MAIN CONTENT -->
+    <div class="mb-5">
+        <!-- products -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Side container -->
+                <div class="col col-12 col-lg-2">
+
+                    <!-- Category -->
+                    <div class="accordion shadow" id="accordion-main">
+
+                        <!-- Sidebar Item 1 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-plant" aria-expanded="true" aria-controls="collapse-plant">Cakes</button>
+                            </h1>
+                            <div id="collapse-plant" class="accordion-collapse collapse show" data-bs-parent="#accordion-main">
+                                
+                                <div class="accordion-body">
+                                    <!-- sub plants -->
+                                    <ul class="list-group filter-btn">
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark all-item">All</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Cupcakes</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Cheesecakes</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Chocolate</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Healthy</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Savoury</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Gluten-Free</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Muffins</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-plant -->
+                        </div> <!-- accordion-item -->
+
+                        <!-- Sidebar Item 2 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-pot" aria-expanded="false" aria-controls="collapse-pot">Essentials</button>
+                            </h1>
+                            <div id="collapse-pot" class="accordion-collapse collapse" data-bs-parent="#accordion-main">
+
+                                <div class="accordion-body">
+                                    <!-- sub pots -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item border-0 disabled"><a href="https://www.youtube.com/" class="link-dark">Pastry</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Pizza</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Cheesecake</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-pot -->
+                        </div> <!-- accordion-item -->
+
+                        <!-- Sidebar Item 3 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-gift" aria-expanded="false" aria-controls="collapse-gift">Special</button>
+                            </h1>
+                            <div id="collapse-gift" class="accordion-collapse collapse" data-bs-parent="#accordion-main">
+
+                                <div class="accordion-body">
+                                    <!-- sub gift -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Hampers</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Valentine's Day</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Pizza</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Ingredients</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-pot -->
+                        </div> <!-- accordion-item -->
+
+                        <!-- Sidebar Item 4 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-tool" aria-expanded="false" aria-controls="collapse-tool">Bread</button>
+                            </h1>
+                            <div id="collapse-tool" class="accordion-collapse collapse" data-bs-parent="#accordion-main">
+
+                                <div class="accordion-body">
+                                    <!-- sub tool -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Bagels</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Buns and Rolls</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Loaf</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-pot -->
+                        </div> <!-- accordion-item -->
+
+                        <!-- Sidebar Item 5 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fertiliser" aria-expanded="false" aria-controls="collapse-fertiliser">Snacks</button>
+                            </h1>
+                            <div id="collapse-fertiliser" class="accordion-collapse collapse" data-bs-parent="#accordion-main">
+
+                                <div class="accordion-body">
+                                    <!-- sub fertiliser -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Twinkies</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Little Debbies</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Mini Cakes</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Gluten-Free</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-pot -->
+                        </div> <!-- accordion-item -->
+
+                    </div> <!-- accordion-main -->
+                </div> <!-- col -->
+    
+                <!-- main products -->
+                <div class="col col-12 col-lg-10 main-product text-center">
+                    <div class="row row-gap-3">
+                        <div class="col col-12 col-md-6 col-lg-3 product-item Cheesecakes">
+                            <a href="images/arrival2.jpg"><img src="images/arrival2.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Cheesecake</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-6 col-lg-3 product-item">
+                            <a href="images/arrival3.jpg"><img src="images/arrival3.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Macarons</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-6 col-lg-3 product-item Cupcakes">
+                            <a href="images/product1.jpg"><img src="images/product1.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Cupcake</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-6 col-lg-3 product-item Chocolate">
+                            <a href="images/product2.jpg"><img src="images/product2.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">New York Browny</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 ol-6 col-md-6 col-lg-3 product-item Chocolate">
+                            <a href="images/arrival4.jpg"><img src="images/arrival4.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Chocolate Donut</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Cheesecakes">
+                            <a href="images/product4.jpg"><img src="images/product4.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Oxford Cheesecake</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Muffins">
+                            <a href="images/store1.jpg"><img src="images/store1.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Almond Muffins</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Muffins Chocolate">
+                            <a href="images/store2.jpg"><img src="images/store2.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Chocolate Muffins</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Cheesecakes">
+                            <a href="images/store3.jpg"><img src="images/store3.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Pancake Cheesecake</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Savoury">
+                            <a href="images/store4.jpg"><img src="images/store4.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Cheese Toastie</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Gluten-Free">
+                            <a href="images/arrival3.jpg"><img src="images/arrival3.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Macarons</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Healthy">
+                            <a href="images/store1.jpg"><img src="images/store1.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Almond Muffins</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Chocolate">
+                            <a href="images/product2.jpg"><img src="images/product2.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Brownie</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Cheesecakes">
+                            <a href="images/arrival2.jpg"><img src="images/arrival2.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Lemon Cheesecake</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Muffins">
+                            <a href="images/product1.jpg"><img src="images/product1.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Muffin</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Chocolate">
+                            <a href="images/arrival4.jpg"><img src="images/arrival4.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Donut</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Muffins">
+                            <a href="images/product1.jpg"><img src="images/product1.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Muffin</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Cheesecakes">
+                            <a href="images/product4.jpg"><img src="images/product4.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Blueberry Cheesecakes</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Muffins">
+                            <a href="images/store2.jpg"><img src="images/store2.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Muffins</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Chocolate">
+                            <a href="images/product2.jpg"><img src="images/product2.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Chocolate Muffin</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+    
+                        
+                    </div> <!-- row row-gap-3 -->
+                </div> <!-- col col-12 col-sm-4 main-product text-center -->
+            </div> <!-- row -->
+        </div> <!-- container-fluid -->
+    </div> <!-- mt-4 -->
+    <!-- END OF CATEGORIES -->
+
+    <!-- FOOTER -->
+    <footer class="shadow-lg">
+        <div class="container">
+            <div class="row text-center" id="main-footer">
+                <div class="col col-12 my-5">
+                    <h2 class="text-center">subscribe to our free newsletter</h2>
+                    <form>
+                        <div id="main-subscribe">
+                            <input type="email" id="email" placeholder="address@gmail.com" class="form-control my-4">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div> <!-- col -->
+            </div> <!-- row -->
+
+            <div class="row row-gap-5 text-center text-lg-start">
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Categories</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Cheesecakes</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Donuts</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Cupcakes</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark" >Wedding Cakes</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Savoury</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Gluten Free</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Cake on Demand</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Healthy</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Information</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">About Us</a></li>
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Our Services</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Latest Blogs</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark" >Featured Products</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">New Arrivals</a></li>
+                        <li class="list-group-item border-0"><a href="contact.html" class="link-dark">Contact Us</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Services</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Shipping</a></li>
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Refund</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Terms and Conditions</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark" >Order History</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Customer Support</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <div>
+                        <h3 class="fs-3">Socials</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="col-12 fab fa-twitter"></i></a>
+                            <a href="#"><i class="col-12 fab fa-discord"></i></a>
+                            <a href="#"><i class="col-12 fab fa-facebook"></i></a>
+                        </div> <!-- social icons -->
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <p>&copy; Starbear Baking Company. All Rights Reserved. 2024</p>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

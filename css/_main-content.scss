@@ -1,0 +1,57 @@
+.main {
+    .col {
+        height: 200px;
+        position: relative;
+    }
+
+    button {
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 60%;
+        text-align: center;
+    }
+}
+
+#main-content {
+    height: 70vh;
+}
+
+// Featured products
+#main-feature, #main-blog {
+    img, iframe {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+#main-arrival {
+    img {
+        object-fit: cover;
+    }
+}
+
+.image-caption {
+    background-color: $color-secondary-dark;
+}
+
+.feature-btn {
+    background-color: $color-white !important;
+}
+
+#more-product-btn {
+    width: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+// Arrival products
+#main-arrival img {
+    width: 230px;
+    height: 230px;
+}

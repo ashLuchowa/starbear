@@ -1,0 +1,273 @@
+/*-------------------- GENERAL --------------------*/
+body {
+  background-color: #fff !important;
+}
+
+@font-face {
+  font-family: "Dream Avenue";
+  src: url(/fonts/dream-avenue.ttf);
+}
+/*-------------------- HEADER --------------------*/
+.dropdown-menu {
+  background-color: #C1D9D2 !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+          backdrop-filter: blur(10px) !important;
+  margin-top: 10px !important;
+}
+
+.read-more-btn {
+  width: 130px;
+  padding: 12px 20px;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large !important;
+  background-color: #BF522A;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgba(193, 217, 210, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.text-color {
+  transition: color 0.2s ease-in-out !important;
+  color: #fff !important;
+}
+
+.text-color-dark {
+  color: #000 !important;
+}
+
+.dropdown-item {
+  color: #000000 !important;
+}
+.dropdown-item:hover {
+  background-color: #BF522A !important;
+}
+.dropdown-item:focus {
+  background-color: #BF522A !important;
+}
+
+.logo-style {
+  font-family: "Dream Avenue";
+  font-size: 3rem !important;
+}
+
+/*-------------------- CAROUSEL --------------------*/
+.c-item {
+  height: 100vh;
+}
+
+.c-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.3);
+}
+
+.carousel-caption {
+  top: 50%;
+}
+
+.btn-primary {
+  background-color: #BF522A !important;
+  border: 0 !important;
+}
+
+/*-------------------- MAIN CONTENT --------------------*/
+.main .col {
+  height: 200px;
+  position: relative;
+}
+.main button {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 60%;
+  text-align: center;
+}
+
+#main-content {
+  height: 70vh;
+}
+
+#main-feature img, #main-feature iframe, #main-blog img, #main-blog iframe {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#main-arrival img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.image-caption {
+  background-color: #BF522A;
+}
+
+.feature-btn {
+  background-color: #fff !important;
+}
+
+#more-product-btn {
+  width: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+#main-arrival img {
+  width: 230px;
+  height: 230px;
+}
+
+/*-------------------- CATEGORY --------------------*/
+#main-blog button {
+  background: none;
+  border: 0;
+  padding: 40px;
+}
+#main-blog button i {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+}
+#main-blog p {
+  color: black;
+  font-weight: 500;
+}
+
+/*-------------------- STORE --------------------*/
+.main-product img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.main-product img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: 0 !important;
+  --bs-primary-bg-subtle: #228765 !important;
+  --bs-accordion-active-bg: #228765 !important;
+  --bs-primary-text-emphasis: #fff !important;
+}
+
+.accordion-item {
+  border: none !important;
+  border-bottom: 1px solid rgb(196, 196, 196) !important;
+}
+.accordion-item:last-child {
+  border-bottom: none !important;
+}
+
+.filter-none {
+  display: none;
+}
+
+.filter {
+  display: block;
+}
+
+/*-------------------- ABOUT --------------------*/
+.about-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.about-img img {
+  height: auto;
+}
+
+#main-about-content {
+  margin-top: 100px;
+}
+
+/*-------------------- CONTACT --------------------*/
+#main-form .col {
+  padding: 10px;
+}
+
+.map-container {
+  overflow: hidden;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#contact-message {
+  height: 100px;
+}
+
+.about-header {
+  margin-top: 160px;
+}
+
+/*-------------------- FOOTER --------------------*/
+footer {
+  background-color: #C1D9D2;
+}
+footer .list-group li {
+  background-color: #C1D9D2;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.social-icons a i {
+  display: inline;
+  margin: 0px 10px;
+}
+
+#main-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#main-subscribe #email {
+  height: 50px;
+}
+#main-subscribe input {
+  background-color: #C1D9D2;
+  border-color: #211508;
+}
+
+/*-------------------- MIX --------------------*/
+/* store, about, contact */
+.custom-header {
+  margin-top: 180px;
+}
+
+/*-------------------- MEDIA QUERIES --------------------*/
+@media (min-width: 992px) {
+  .contact-image img {
+    height: 60vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+.main-product {
+    img {
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+// Featured products
+.main-product {
+    img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 !important;
+    --bs-primary-bg-subtle: #228765 !important;
+    --bs-accordion-active-bg: #228765 !important;
+    --bs-primary-text-emphasis: #fff !important;
+}
+
+.accordion-item {
+    border: none !important;
+    border-bottom: 1px solid rgb(196, 196, 196) !important;
+    &:last-child {
+        border-bottom: none !important;
+    }
+}
+
+// Filtering
+.filter-none {
+    display: none;
+}
+
+.filter {
+    display: block;
+}

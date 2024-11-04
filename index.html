@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbear Baking Company</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm fixed-top shadow-sm" id="main-nav">
+            <div class="container d-flex flex-row">
+                <a href="index.html" class="navbar-brand text-color logo-style">Starbear</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav btn-group">
+                        <!-- Store item -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle text-color" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside" id="product-dropdown">Store</a>
+                                <ul class="dropdown-menu nav-item shadow-sm border-0" aria-labelledby="product-dropdown">
+                                    <li class="dropend"><a href="store.html" class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown">Cheesecakes</a>
+                                        <!-- plant sub item -->
+                                        <ul class="dropdown-menu shadow-sm border-0">
+                                            <li><a href="store.html" class="dropdown-item">New York Style</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Vegan</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Sernik</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Fiadone</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="store.html" class="dropdown-item">Donuts</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Cupcakes</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Wedding Cakes</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Savoury</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Gluten Free</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Bake on Demand</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Savoury</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Healthy</a></li>
+                                </ul>
+                            </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link text-color">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link text-color">Contact</a>
+                        </li>
+                    </ul>
+                </div> <!-- collapse navbar-collapse -->
+            </div> <!-- container-fluid -->
+        </nav>
+
+        <!-- Image Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="images/image1.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption d-md-block d-md-block mb-4">
+                        <h1 class="text-uppercase">Welcome to Starbear Baking Company</h1>
+                        <p class="fs-5 mb-4">Newly baked goods introduced this week</p>
+                        <a href="store.html" class="read-more-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="images/image2.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption d-md-block d-md-block mb-4">
+                        <h1 class="text-uppercase">We deliver all over Perth!</h1>
+                        <p class="fs-5 mb-4">Free shipping for orders over $100</p>
+                        <a href="store.html" class="read-more-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="images/image3.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption d-md-block d-md-block mb-4">
+                        <h1 class="text-uppercase">Appetising Fresh Donuts</h1>
+                        <p class="fs-5 mb-4">Any flavour you can think about</p>
+                        <a href="store.html" class="read-more-btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <!-- carousel navigation -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- WE ARE EXPERTS -->
+    <div class="main-content d-flex flex-column text-center my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="images/image4.jpg" class="img-fluid rounded-4 shadow" alt="Responsive image">
+                </div> <!-- col -->
+                <div class="col col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 class="my-4">We Bake Delicious Cakes</h1>
+                    <p>Our bakery is a family-owned establishment dedicated to crafting artisanal breads and pastries, using only the finest local ingredients to create delightful treats for our community.
+                    </p>
+                    <a href="about.html" class="read-more-btn">About Us</a>
+                </div> <!-- col -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div>
+    <!-- END OF WE ARE EXPERTS -->
+
+    <!-- FEATURED ITEMS -->
+    <div class="d-flex flex-column text-center my-4" id="main-feature">
+        <div class="container">
+            <div class="row">
+                <h1 class="my-5">Featured Cakes</h1>
+            </div> <!-- row -->
+            <div class="row text-light">
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product1.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Caramel Cupcakes</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product2.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Double Choc Brownies</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product3.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Lemon Cheesecakes</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product4.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Oxford Cheesecake</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> <!-- main-featured -->
+    <!-- END OF FEATURED ITEMS -->
+
+    <!-- NEW ARRIVALS -->
+    <div class="d-flex flex-column text-center my-4" id="main-arrival">
+        <div class="container">
+            <div class="row">
+                <h1 class="my-5">Daily Essentials</h1>
+            </div> <!-- row -->
+            <div class="row text-black">
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product4.jpg" class="img-fluid rounded-circle shadow" alt="Responsive image">
+                        <p class="fs-5 fw-mediuma mt-3">Oxford Cheesecake</p>
+                        <button class="btn btn-primary fw-medium">Add to Cart</button>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/arrival2.jpg" class="img-fluid rounded-circle shadow" alt="Responsive image">
+                        <p class="fs-5 fw-mediuma mt-3">Fiadone Cheesecake</p>
+                        <button class="btn btn-primary fw-medium">Add to Cart</button>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/arrival3.jpg" class="img-fluid rounded-circle shadow" alt="Responsive image">
+                        <p class="fs-5 fw-mediuma mt-3">Macarons</p>
+                        <button class="btn btn-primary fw-medium">Add to Cart</button>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/arrival4.jpg" class="img-fluid rounded-circle shadow" alt="Responsive image">
+                        <p class="fs-5 fw-mediuma mt-3">Chocolate Donuts</p>
+                        <button class="btn btn-primary fw-medium">Add to Cart</button>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> <!-- d-flex -->
+    <!-- END OF NEW ARRIVALS -->
+
+    <!-- LATEST BLOG -->
+    <div class="d-flex flex-column text-center my-4" id="main-blog">
+        <div class="container">
+            <div class="row">
+                <h1 class="my-5">Choose a Category</h1>
+            </div> <!-- row -->
+            <div class="row text-light">
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <button><i class='fas fa-birthday-cake'></i></button>
+                    <p>Cakes</p>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <button><i class='fas fa-ice-cream'></i></i></button>
+                    <p>Chocolate</p>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <button><i class='fas fa-hamburger'></i></button>
+                    <p>Savoury Pastry</p>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <button><i class='fas fa-pizza-slice'></i></button>
+                    <p>Pizza</p>
+                </div>
+            </div> <!-- row -->
+            
+        </div> <!-- container -->
+    </div> <!-- d-flex -->
+    <!-- END OF LATEST BLOG -->
+
+    <!-- FOOTER -->
+    <footer class="shadow-lg">
+        <div class="container">
+            <div class="row text-center" id="main-footer">
+                <div class="col col-12 my-5">
+                    <h2 class="text-center">subscribe to our free newsletter</h2>
+                    <form>
+                        <div id="main-subscribe">
+                            <input type="email" id="email" placeholder="address@gmail.com" class="form-control my-4">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div> <!-- col -->
+            </div> <!-- row -->
+
+            <div class="row row-gap-5 text-center text-lg-start">
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Categories</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Cheesecakes</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Donuts</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Cupcakes</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark" >Wedding Cakes</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Savoury</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Gluten Free</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Cake on Demand</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Healthy</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Information</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">About Us</a></li>
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Our Services</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Latest Blogs</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark" >Featured Products</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">New Arrivals</a></li>
+                        <li class="list-group-item border-0"><a href="contact.html" class="link-dark">Contact Us</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Services</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Shipping</a></li>
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Refund</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Terms and Conditions</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark" >Order History</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Customer Support</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <div>
+                        <h3 class="fs-3">Socials</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="col-12 fab fa-twitter"></i></a>
+                            <a href="#"><i class="col-12 fab fa-discord"></i></a>
+                            <a href="#"><i class="col-12 fab fa-facebook"></i></a>
+                        </div> <!-- social icons -->
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <p>&copy; Starbear Baking Company. All Rights Reserved. 2024</p>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

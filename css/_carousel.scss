@@ -1,0 +1,18 @@
+.c-item {
+    height: 100vh;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+.carousel-caption {
+    top: 50%;
+}
+
+.btn-primary {
+    background-color: $color-secondary-dark !important;
+    border: 0 !important;
+}
